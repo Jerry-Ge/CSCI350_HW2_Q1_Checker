@@ -2,9 +2,10 @@
 An auto assignment checker for CSCI350: Operating System. University of Southern California.
 
 ## How to Use?
-1. Clone this repo under your Q1 folder
-2. cd into CSCI350_HW2_Q1_Checker
-3. run "python check.py"
+1. Rename your source file to 'sim.c'
+2. Clone this repo under your Q1 folder
+3. cd into CSCI350_HW2_Q1_Checker
+4. run "python check.py"
 
 ## How to contribute to this Repo?
 1. create test input file in /Input folder: name as "[algorithm_name] + [description] + [.in]"
