@@ -12,3 +12,10 @@ An auto assignment checker for CSCI350: Operating System
   - 2.1 Be careful that the expected output file must be created and edited in unix systems, otherwise the different newline system will 
       cause test cases don't pass.
 3. Make a pull request to this repo for review. If it's a good test, I will merge that into the master branch.
+
+## Contributors:
+⋅⋅* Jerry Ge
+⋅⋅* Daiming Yang
+University of Southern California.
+
+
