@@ -1,19 +1,27 @@
+# Contributors:
+# Jerry Ge
+# Daiming Yang
+# University of Southern California
+
 import os
 import filecmp
 
 SSTF_Input_Files = []
-
+total_tests = 0
+passed_tests = 0
 
 def Parse_Input_Files(path):
 	for entry in os.listdir(path):
 		if os.path.isfile(os.path.join(path, entry)):
 			#print(type(entry))
+			global total_tests
+			total_tests += 1
 			SSTF_Input_Files.append(str(entry))
 
 os.system("clear")
 Checker_Path = "CSCI350_HW2_Q1_Checker"
 print("=========================================")
-print("*****Welcome to Jerry's Checker**********")
+print("*****Welcome to CSCI350 HW2 Checker******")
 print("=========================================")
 
 os.chdir("../")
@@ -46,7 +54,16 @@ for i in range(len(SSTF_Input_Files)):
 				print("Your Output: " )
 				os.system("cat " + output_file_path)
 			else:
+				global passed_tests
+				passed_tests += 1
 				print("Input File Name: " + SSTF_Input_Files[i] + "\n")
 				print("Test Passed!")
 
 	print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+
+if total_tests == passed_tests:
+	print("=========================================================")
+	print("======================ALL PASSED!========================")
+	print("=========================================================")
+else:
+	print("Failed: " + str(total_tests - passed_tests) + "/" + str(total_tests))
