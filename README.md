@@ -1,5 +1,5 @@
 # CSCI350_HW2_Q1_Checker
-An auto assignment checker for CSCI350: Operating System
+An auto assignment checker for CSCI350: Operating System. University of Southern California.
 
 ## How to Use?
 1. Clone this repo under your Q1 folder
@@ -17,7 +17,6 @@ An auto assignment checker for CSCI350: Operating System
 1. Jerry Ge
 2. Daiming Yang\
 
-
-University of Southern California.
+### All Rights Reserved
 
 
