@@ -14,8 +14,8 @@ An auto assignment checker for CSCI350: Operating System
 3. Make a pull request to this repo for review. If it's a good test, I will merge that into the master branch.
 
 ## Contributors:
-1.Jerry Ge
-2.Daiming Yang\
+1. Jerry Ge
+2. Daiming Yang\
 University of Southern California.
 
 
