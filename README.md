@@ -16,6 +16,8 @@ An auto assignment checker for CSCI350: Operating System
 ## Contributors:
 1. Jerry Ge
 2. Daiming Yang\
+
+
 University of Southern California.
 
 
